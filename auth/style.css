@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
+#container{
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+	background-color: #8ECCC6;
+	border-radius: 20px;
+	padding:40px 20px;}
+
+body {
+	background:white;
+	font-style: helvetica;
+	color:white;
+	font-size: 20;
+	padding: 70px 20px 20px 70px;
+}
+
+a{
+	color:#8ECCC6;
+
+}
+
+a:hover{
+	background-color:#8ECCC6;
+	font-size:25px;
+	color:white;
+}
+
+li {
+	list-style: none;
+	font-size:25px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 25px;
+}

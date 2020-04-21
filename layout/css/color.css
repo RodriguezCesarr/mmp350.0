@@ -1,0 +1,18 @@
+:root {
+	--main-color:#8ccfbd ;
+	--accent-color:#ebedec;
+	--border-color:#696D6C;
+}
+h1, a {
+	color: var(--main-color);
+
+}
+
+button{ 
+	color: var(--main-color) ;
+	
+}
+
+button::placeholder, input::placeholder, textarea::placeholder {
+	color: var(--main-color);
+}
