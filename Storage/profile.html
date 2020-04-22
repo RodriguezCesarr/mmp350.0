@@ -29,21 +29,27 @@
 </head>
 <body>
 	<div id="container">
-			<a href="../storage/index.html">Back</a>
 		<div id="title">
-			<h1>MMP 350 Site</h1>
-			<h1>Profile Edit</h1>
-
+			<h1><a href="index.html">MMP 350 Site</a></h1>
 		</div>
 
 		<div id="user-info">
 			<p id="user-name"></p>
+			<a id="edit-profile-link">Edit Profile</a>
 			<button id="logout-button">Logout</button>
+		</div>
+
+		<div id="login">
+			<input id="login-email" type="text" placeholder="Email">
+			<input id="login-password" type="password" placeholder="Password">
+			<button id="login-button">Login</button>
+			<p id="login-message"></p>
+			<p><a href="create.html">Create a new account</a></p>
 		</div>
 
 		
 		<div id="profile">
-			// something here is broken
+
 			<img id="profile-image" src="img/sinon.png">
 			<input type="file" id="profile-image-input">
 			<button id="update-profile-image">Upload Profile Image</button>
@@ -51,7 +57,9 @@
 			<input id="profile-display-name" placeholder="User name">
 			<textarea id="profile-bio" placeholder="Add your bio"></textarea>
 			<button id="update-profile">Update Profile</button>
-		</div>	
+		</div>
+		
+		
 	</div>
 
 	<script src="js/helpers.js"></script>
