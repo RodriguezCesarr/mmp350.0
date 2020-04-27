@@ -20,9 +20,16 @@ function createPost(postData, userInfo, postId) {
 	if (userInfo.imageURL) {
 		userImage.src = userInfo.imageURL;
 	} else {
-		userImage.src = "img/egg.jpg";
+		userImage.src = "img/sinon.png";
 	}
 	post.appendChild(userImage);
+
+	//adds image on post area 
+	if (postData.imageURL) {
+		const postImage = js.createEl( 'img', 'post-image');
+		postImage.src = postData.imageURL;
+		post.appendChild(postImage);
+	}
 
 	
 	// post info 

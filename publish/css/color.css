@@ -1,14 +1,38 @@
-:root {
+/* color css1, Mono Tone*/
+/*:root { 
 	--main-color:#8ccfbd ;
 	--accent-color:#ebedec;
 	--border-color:#696D6C;
 }
+
+/* color css2, Complementary (watermelon combo*/
+:root { 
+	--main-color:#52B34F;
+	--accent-color:#FF8ACA;
+	--border-color:#8CFF89;
+}
+
+/* color css3, triadic color scheme*/
+/*:root { 
+	--main-color:#FFA680;
+	--accent-color:#77B359;
+	--border-color:#B3B8FF;
+}*/
+
 h1, a {
-	color: var(--main-color);
+	color: var(--accent-color);
 
 }
 
 button{ 
-	color: var(--main-color) ;
+	color: var(--border-color) ;
 	
+}
+
+button::placeholder, input::placeholder, textarea::placeholder {
+	color: var(--main-color);
+}
+
+a:hover {
+	color: var(--main-color);
 }
