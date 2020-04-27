@@ -9,10 +9,10 @@ function createPost(postData, userInfo, postId) {
 	
 	// posts in reverse chronological order
 	//no cronological order
-	//posts.insertBefore(post, posts.firstElementChild);
+	posts.insertBefore(post, posts.firstElementChild);
 
 	// add posts in chronological
-	posts.appendChild(post);
+	//posts.appendChild(post);
 	
 	const text = js.createEl('div', 'post-text', postData.text);
 	post.appendChild(text);
@@ -21,7 +21,6 @@ function createPost(postData, userInfo, postId) {
 const info = js.createEl('div', 'post-info');
 post.appendChild(info);
 	// author userInfo.displayName
-const 
 	// date js.formatDate(postData.date) 
 	
 }
