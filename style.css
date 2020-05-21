@@ -3,29 +3,50 @@ body {
 	font-style: helvetica;
 	color:white;
 	font-size: 20;
-	padding: 70px 20px 20px 70px;
 }
 
 a{
 	color:white;
+	text-align: center;
+	text-decoration: none;
 
 }
 
 a:hover{
-	background-color:#C0964D;
+	background-color:#white;
 	font-size:25px;
+	color: #1e1e1e;
+	text-decoration: underline;
 }
 
 li {
 	list-style: none;
 	font-size:25px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
 }
 
 h1{
 	font-size: 50px;
+	text-align: center;
 }
 
-h2{
+p{
 	font-size: 25px;
+	text-align: center;
+	background-color: white;
 }
+
+#box{
+	color: white;
+	width: 400px;
+	border: 10px solid white;
+	padding: 50px;
+	border-radius: 25px;
+	background-color: rgba(255,255,255,.30);
+}
+
+
+
 

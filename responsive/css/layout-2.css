@@ -4,11 +4,13 @@
 	grid-gap: 2em;
 
 	grid-template-areas:
-		"title login"
-		"publish posts"
-		"publish posts"
-		"nothing posts"
-	;
+		"title title"
+		"login login"
+		"publish publish"
+		"posts posts"
+		"posts posts"
+		"posts posts"
+		;
 }
 
 #title {
@@ -24,6 +26,6 @@
 }
 
 #profile, 
-S#posts {
+#posts {
 	grid-area: posts;
 }
