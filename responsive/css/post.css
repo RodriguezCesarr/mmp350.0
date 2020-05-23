@@ -1,14 +1,17 @@
 .post {
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 0.25em;
-	padding: 1em;
+	border-radius: 2em;
 	margin-top: 1em;
-	position: relative;
-	min-height: 120px;
+	margin-bottom: 50px;
+	
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(255,255,255,.70);
 }
 
 .post-text {
+	padding: 1em;
+	padding-top: 110px;
+	width: 200px;
 }
 
 .post-author {
@@ -24,7 +27,17 @@
 	height: 100px;
 	object-fit: cover;
 	border-radius: 100px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding: 10px 10px 10px 10px;
+
+	display: flex;
 	position: absolute;
-	right: 5px;
-	top: 5px;
+
+}
+
+.post-image{
+	height: 300px;
+	width: 400px;
+	margin: 30px 20px 30px 20px;
 }

@@ -25,6 +25,8 @@ button, input {
 	text-align: center;
 	padding-top: 50;
 	padding-bottom: 50;
+	margin: 50px 0 50px 0;
+	font-size: 50px;
 }
 
 img{
@@ -45,6 +47,7 @@ img{
 #login{
 	text-align: center;
 	padding-bottom: 20px;
+	float: right;
 }
 
 #user-info {
@@ -52,7 +55,7 @@ img{
 }
 
 #create-button{
-	margin-left: 30px;
+
 }
 
 body.auth #login {
@@ -81,4 +84,32 @@ a{
 }
 a:hover{
 	text-decoration: underline;
+}
+
+#nav{
+	float: left;
+	display: block;
+ 	padding: 8px;
+ 	text-decoration: none;
+ 	margin: 30px 10px 10px 10px;
+ 	position: absolute;
+ 	align-content: center;
+ 	border-bottom-left-radius: 1em;
+ 	border-bottom-right-radius: 1em;
+}
+
+li{
+	list-style: none;
+	display: inline;
+	text-align: center;
+}
+
+#home{
+	margin-right: 200px;
+}
+
+#post-bg{
+	max-width: 900px;
+	margin: 0 auto;
+	border-radius: 50px 20px;
 }

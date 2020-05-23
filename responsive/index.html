@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Responsive</title>
+	<title>Gaming Buddy</title>
 	<meta charset="utf-8">
 	<link href="style.css" rel="stylesheet" type="text/css">
 
@@ -29,39 +29,38 @@
 
 </head>
 
-</head>
 <body>
-	<button><a href="../index.html"> Home </a></button>
+
 	<div id="container">
-		<div id="title">
-			<h1>MMP 350 Site</h1>
+		<div id="login">
+			<div id= "nav">
+				<li><button id="home"><a href="../index.html"> Home </a></button></li>
+				<li><input id="login-email" type="text" placeholder="Email"></li>
+				<li><input id="login-password" type="password" placeholder="Password"></li>			
+				<li><button id="login-button">Login</button></li>
+				<li><button id="logout-button">Logout</button></li>
+				<li><button id= "create-button"><a href="create.html">sign Up</a></button></li>
+				<p id="login-message"></p>
+			</div>
 		</div>
 
-<div id="user-info">
+		<div id="title">
+			<h1>Gaming Buddy</h1>
+		</div>
+
+		<div id="user-info">
 			<p id="user-name"></p>
 			<a id="edit-profile-link" href="Profile.html">Edit Profile</a>
-			<button id="logout-button">Logout</button>
 		</div>
-
-		<div id="login">
-			<input id="login-email" type="text" placeholder="Email">
-			<input id="login-password" type="password" placeholder="Password">
-			<button id="login-button">Login</button>
-			<button id= "create-button"><a href="create.html">Create a new account</a></button>
-			<p id="login-message"></p>
-
-		</div>
-
+		
 		<div id="publish-post">
 			<textarea id="publish-text" placeholder="Compose your post..."></textarea>
 			<input type="file" id="post-image-input">
-			<button id="publish-button">Publish</button>
+			<button id="publish-button">Post</button>
 		</div>
-
-		<div id="posts"></div>
 		
+		<div id="posts"></div>		
 	</div>
-
 	<script src="js/helpers.js"></script>
 	<script src="js/auth.js"></script>
 	<script src="js/publish.js"></script>

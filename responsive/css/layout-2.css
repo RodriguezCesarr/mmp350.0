@@ -1,15 +1,15 @@
 #container {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 2fr 3fr;
 	grid-gap: 2em;
 
 	grid-template-areas:
-		"title title"
-		"login login"
-		"publish publish"
-		"posts posts"
-		"posts posts"
-		"posts posts"
+		"login login login"
+		"title title title"
+		"publish nothing nothing"
+		"posts posts posts"
+		"posts posts posts"
+		"posts posts posts"
 		;
 }
 
