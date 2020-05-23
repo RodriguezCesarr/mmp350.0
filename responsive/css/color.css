@@ -7,9 +7,9 @@
 
 /* color css2, Complementary (watermelon combo*/
 :root { 
-	--main-color: #8ECCC6;
-	--accent-color: #5e6c69ff;
-	--border-color: #1e1e1eff;
+	--main-color: #fa4b66;
+	--accent-color: #5e6c69;
+	--border-color: #1e1e1e;
 	--filler-color: white;
 }
 
@@ -31,7 +31,7 @@ background-color: rgba(255,255,255,.30);
 }
 
 button::placeholder, input::placeholder, textarea::placeholder {
-	color: var(--accent-color);
+	color: var(--main-color);
 }
 
 a:hover {
@@ -43,14 +43,6 @@ body{
 }
 
 #post{
-	color: var(--accent-color);
-}
-
-#post-bg{
-	background-color: var(--main-color);
-}
-
-#nav{
-	background-color: rgba(142, 204, 198, .70);
 
 }
+

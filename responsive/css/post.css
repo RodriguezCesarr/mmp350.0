@@ -2,10 +2,13 @@
 	border-radius: 2em;
 	margin-top: 1em;
 	margin-bottom: 50px;
-	
+	border-width: 10px;
+	border: 2px solid;
 	display: flex;
+	height: 600px;
 	justify-content: space-between;
-	background-color: rgba(255,255,255,.70);
+	border-color: #ebebeb;
+	background-color: #faf8f6;
 }
 
 .post-text {
@@ -30,14 +33,14 @@
 	margin-right: auto;
 	margin-bottom: 30px;
 	padding: 10px 10px 10px 10px;
-
 	display: flex;
 	position: absolute;
 
 }
 
 .post-image{
-	height: 300px;
-	width: 400px;
-	margin: 30px 20px 30px 20px;
+	height: 580px;
+	width: 600px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
